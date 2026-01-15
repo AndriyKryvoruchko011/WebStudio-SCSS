@@ -1,13 +1,15 @@
-:root {
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-accent: #2196f3;
-  --color-primary-text: #212121;
-  --color-secondary-text: #757575;
-  --color-light-bg: #f5f4fa;
-  --color-footer-bg: #2f303a;
-  --color-svg-icon: #afb1b8;
-  --color-borders: #eeeeee;
-  --color-buttons: #f5f4fa;
-  --color-header-border: #ececec;
-}
+$color-white: #ffffff;
+$color-black: #000000;
+$color-accent: #2196f3;
+$color-primary-text: #212121;
+$color-secondary-text: #757575;
+$color-light-bg: #f5f4fa;
+$color-footer-bg: #2f303a;
+$color-svg-icon: #afb1b8;
+$color-borders: #eeeeee;
+$color-buttons: #f5f4fa;
+$color-header-border: #ececec;
+
+// font
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Raleway', sans-serif;

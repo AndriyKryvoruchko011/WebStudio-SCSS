@@ -22,7 +22,7 @@
   }
 
   &__title {
-    color: #ffffff;
+    color: $color-white;
     font-weight: 900;
     letter-spacing: 5px;
     font-size: 44px;
@@ -30,8 +30,8 @@
 
   &__button {
     margin-top: 20px;
-    background-color: var(--color-accent);
-    color: var(--color-white);
+    background-color: $color-accent;
+    color: $color-white;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -41,7 +41,7 @@
 
     &:hover {
       transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-      color: #f5f4fa;
+      color: $color-light-bg;
       background-color: #1881f8e1;
     }
   }

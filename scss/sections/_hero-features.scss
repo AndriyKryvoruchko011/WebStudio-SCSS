@@ -16,7 +16,7 @@
       background-image: url(../img/SVG/antenna.svg);
       width: 270px;
       height: 120px;
-      background-color: var(--color-light-bg);
+      background-color: $color-light-bg;
       background-size: 230px;
       background-repeat: no-repeat;
       background-position: center;
@@ -28,7 +28,7 @@
       background-image: url(../img/SVG/clock.svg);
       width: 270px;
       height: 120px;
-      background-color: var(--color-light-bg);
+      background-color: $color-light-bg;
       background-size: 220px;
       background-repeat: no-repeat;
       background-position: center;
@@ -40,7 +40,7 @@
       background-image: url(../img/SVG/diagram.svg);
       width: 270px;
       height: 120px;
-      background-color: var(--color-light-bg);
+      background-color: $color-light-bg;
       background-size: 220px;
       background-repeat: no-repeat;
       background-position: center;
@@ -52,7 +52,7 @@
       background-image: url(../img/SVG/astronaut.svg);
       width: 270px;
       height: 120px;
-      background-color: var(--color-light-bg);
+      background-color: $color-light-bg;
       background-size: 220px;
       background-repeat: no-repeat;
       background-position: center;
@@ -60,9 +60,10 @@
   }
 
   &__title {
+    
   }
 
   &__text {
-    color: var(--color-secondary-text);
+    color: $color-secondary-text;
   }
 }

@@ -21,13 +21,13 @@
   }
 
   &__link {
-    color: #212121;
+    color: $color-primary-text;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 
     &--active {
-      color: var(--color-accent);
+      color: $color-accent;
       font-weight: 500;
       text-decoration: none;
       margin-left: 60px;
@@ -40,7 +40,7 @@
         position: absolute;
         left: 0px;
         bottom: -31px;
-        background-color: rgba(33, 150, 243, 1);
+        background-color: $color-accent;
         max-width: 48px;
         width: 100%;
         height: 4px;
@@ -49,7 +49,7 @@
     }
 
     &:hover {
-      color: var(--color-accent);
+      color: $color-accent;
     }
   }
 }
@@ -64,23 +64,23 @@
 
   &__email,
   &__phone {
-    color: var(--color-secondary-text);
+    color: $color-secondary-text;
     cursor: pointer;
     transition: color 0.2s ease-in-out;
 
     &:hover {
-      color: var(--color-accent);
+      color: $color-accent;
     }
   }
 
   &__icon {
-    fill: var(--color-secondary-text);
+    fill: $color-secondary-text;
     width: 16px;
     height: 12px;
     transition: fill 0.2s ease-in-out;
 
     &:hover {
-      fill: var(--color-accent);
+      fill: $color-accent;
     }
 
     &--mail {
@@ -96,13 +96,13 @@
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: $font-family-secondary;
   font-weight: 700;
   animation: bounce 1.2s ease-in-out;
 
   &__part {
     &--blue {
-      color: var(--color-accent);
+      color: $color-accent;
     }
   }
 }

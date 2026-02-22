@@ -1,5 +1,5 @@
 .team {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   background-color: $color-light-bg;
 
   & .container {
@@ -9,19 +9,17 @@
   &__title {
     text-align: center;
     margin-bottom: 30px;
-    padding-top: 100px;
+    padding-top: 60px;
     color: $color-primary-text;
     font-weight: 700;
   }
 
   &__members {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: block;
   }
 
   &__card {
-    width: 270px;
+    width: 100%;
     text-align: center;
     margin-bottom: 30px;
     background-color: $color-white;
@@ -30,8 +28,8 @@
   }
 
   &__photo {
-    width: 270px;
-    height: 260px;
+    width: 100%;
+    height: auto;
   }
 
   &__role {

@@ -3,7 +3,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/background-hero.png);
+    url(../../img/retina/hero-mobile@1x.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,6 +43,41 @@
       transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
       color: $color-light-bg;
       background-color: #1881f8e1;
+    }
+  }
+
+  @media (min-resolution: 192dpi) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url(../../img/retina/hero-mobile@2x.png);
+  }
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url(../../img/retina/hero-tablet@1x.png);
+    
+    @media (min-resolution: 192dpi) {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ), url(../../img/retina/hero-tablet@2x.png);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url(../../img/retina/hero-dekstop@1x.png);
+    
+    @media (min-resolution: 192dpi) {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ), url(../../img/retina/hero-dekstop@2x.png);
     }
   }
 }
